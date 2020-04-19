@@ -103,6 +103,9 @@ form  {
     width: 50%;
 }
 
+label {
+    margin-bottom: 50px;
+}
 
 input, textarea {
     width: 100%;
@@ -119,14 +122,14 @@ form button {
     border: none;
     outline: none;
     cursor: pointer;
-    transition: ease-in-out 360ms;
+    transition: ease-in-out 0.4s;
     border-radius: 5px;
     font-weight: 700;
 }
 
 form button:hover {
     padding: 15px;
-    width: 15%;
+    width: 40%;
     font-size: 20px;
     background-color: rgb(109, 106, 106);
     border: none;
